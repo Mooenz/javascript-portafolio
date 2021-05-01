@@ -8,7 +8,7 @@ let victorias_jugadorDos = 0;
 
 const mensajeGanador = (codigoMensaje, opcion) => {
   if (codigoMensaje == 1) {
-    console.log(`Gana el jugador 1 con ${opcion}`)
+    console.log(`Gana el jugador 1 con ${opcion}`);
   } else if (codigoMensaje == 2) {
     console.log(`Gana el jugador 2 con ${opcion}`);
   }  else {
@@ -21,10 +21,10 @@ const piedraPapelTijera = (jugadorUno, jugadorDos) => {
       mensajeGanador();
     } else if (jugadorUno == 'tijera' && jugadorDos == 'papel') {
         victorias_jugadorUno += 1;
-        mensajeGanador(1, jugadorUno)
+        mensajeGanador(1, jugadorUno);
     } else if (jugadorUno == 'papel' && jugadorDos == 'piedra') {
         victorias_jugadorUno += 1;
-        mensajeGanador(1, jugadorUno)
+        mensajeGanador(1, jugadorUno);
     } else if (jugadorUno == 'piedra' && jugadorDos == 'tijera') {
         victorias_jugadorUno += 1;
         mensajeGanador(1, jugadorUno);
