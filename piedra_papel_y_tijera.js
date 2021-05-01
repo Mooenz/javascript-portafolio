@@ -8,11 +8,11 @@ let victorias_jugadorDos = 0;
 
 const mensajeGanador = (codigoMensaje, opcion) => {
   if (codigoMensaje == 1) {
-    console.log(`Gana el jugador Uno con ${opcion}`)
+    console.log(`Gana el jugador 1 con ${opcion}`)
   } else if (codigoMensaje == 2) {
-    console.log(`Gana el jugador dos con ${opcion}`);
+    console.log(`Gana el jugador 2 con ${opcion}`);
   }  else {
-    console.log(`Es empate`);
+    console.log(`Es empate, nadie recibe punto`);
   }
 }
 
@@ -34,19 +34,47 @@ const piedraPapelTijera = (jugadorUno, jugadorDos) => {
     }
   
   if (victorias_jugadorUno == 2) {
-    return console.log(`Ganador es jugador uno con ${victorias_jugadorUno} victorias`);
+    console.log(`Ganador es jugador 1 con ${victorias_jugadorUno} victorias`);
+    victorias_jugadorUno = 0;
+    victorias_jugadorDos = 0; 
   } else if (victorias_jugadorDos == 2) {
-    return console.log(`Ganador es jugador dos con ${victorias_jugadorDos} victorias`);
+    console.log(`Ganador es jugador 2 con ${victorias_jugadorDos} victorias`);
+    victorias_jugadorUno = 0;
+    victorias_jugadorDos = 0;     
   }
 }
 
 piedraPapelTijera('tijera','papel');
+piedraPapelTijera('papel','papel');
 piedraPapelTijera('papel','tijera');
+piedraPapelTijera('piedra','piedra');
 piedraPapelTijera('piedra','tijera');
+piedraPapelTijera('tijera','tijera');
+piedraPapelTijera('piedra','tijera');
+piedraPapelTijera('papel','tijera');
+piedraPapelTijera('piedra','papel');
 
 /** Solucion
- * Gana el jugador Uno con tijera
- * Gana el jugador dos con tijera
- * Gana el jugador Uno con piedra
- * Ganador es jugador uno con 2 victoria 
+ *Gana el jugador 1 con tijera
+ piedra_papel_y_tijera.js:11
+ Es empate, nadie recibe punto
+ piedra_papel_y_tijera.js:15
+ Gana el jugador 2 con tijera
+ piedra_papel_y_tijera.js:13
+ Es empate, nadie recibe punto
+ piedra_papel_y_tijera.js:15
+ Gana el jugador 1 con piedra
+ piedra_papel_y_tijera.js:11
+ Ganador es jugador 1 con 2 victorias
+ piedra_papel_y_tijera.js:37
+ Es empate, nadie recibe punto
+ piedra_papel_y_tijera.js:15
+ Gana el jugador 1 con piedra
+ piedra_papel_y_tijera.js:11
+ Gana el jugador 2 con tijera
+ piedra_papel_y_tijera.js:13
+ Gana el jugador 2 con papel
+ piedra_papel_y_tijera.js:13
+ Ganador es jugador 2 con 2 victorias
+ piedra_papel_y_tijera.js:41
  */
