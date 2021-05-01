@@ -1,9 +1,10 @@
-# Portafolio-Javascript
+## **Portafolio-Javascript**
 Este repo recopila pequeños fragmentos de JavaScript.  
 
-1. **[Area de un triangulo.](#area_triangulo)** 
-# 2. Reloj.
-# 3. Repite la palabra.
-# 4. Eliminar vocales.
-# 5. Calculadora.
-# 6. Piedra, Papel o Tijera.
+### 1. __Area de un triangulo.__
+### 2. __Reloj.__
+### 3. __Repite la palabra.__
+### 4. __Eliminar vocales.__
+### 5. __Calculadora.__
+### 6. __Piedra, Papel o Tijera.__
+### 7.
