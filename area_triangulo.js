@@ -7,7 +7,7 @@
 /** PENDIENTE RETO 2 */
 const areaTriguangulo = (base = 8, altura = 4) => {
   let area = base*altura/2;
-  return console.log(`El area del triangulo es: ${area}`);
+  return console.log(`El area del triangulo es: ${area} m2`);
 }
 areaTriguangulo();
 areaTriguangulo(5, 4);
