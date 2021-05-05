@@ -6,8 +6,6 @@ const repiteLaPalabra = (palabra, cantidadRepeticiones) => {
   if (cantidadRepeticiones > 0) {    
     cantidadRepeticiones -= 1;
     repiteLaPalabra(palabra,cantidadRepeticiones);
-  } else {
-    return
   }
 }
 

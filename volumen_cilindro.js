@@ -8,7 +8,7 @@ const calcularVolumenCilindro = (altura, radio) => {
   const volumen = Math.floor(pi*radio_al_cuadrado*altura);
   return console.log(`El volumen del cilindro es ${volumen} m3`);
 }
-/*pi*(radio*radio)*altura))*/
+
 calcularVolumenCilindro(10,5);
 
 /**Solucion

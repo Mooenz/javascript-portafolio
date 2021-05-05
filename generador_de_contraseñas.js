@@ -9,10 +9,10 @@ const simbolos = ',.;:+-*/¿?¡!#$%&';
 
 const randonNumber = (lengthString) => Math.floor(Math.random(1)*lengthString);
 
-const callMinusculaString = () => minuscula.charAt(randonNumber(minuscula.length))
-const callMayusculaString = () => mayuscula.charAt(randonNumber(mayuscula.length))
-const callNumerosString = () => numeros.charAt(randonNumber(numeros.length))
-const callSimbolostring = () => simbolos.charAt(randonNumber(simbolos.length))
+const callMinusculaString = () => minuscula.charAt(randonNumber(minuscula.length));
+const callMayusculaString = () => mayuscula.charAt(randonNumber(mayuscula.length));
+const callNumerosString = () => numeros.charAt(randonNumber(numeros.length));
+const callSimbolostring = () => simbolos.charAt(randonNumber(simbolos.length));
 
 const passworld = (numero_caracteres_contraseña) => {
     let concatenarContraseña = [];
