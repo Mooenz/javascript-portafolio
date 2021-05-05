@@ -1,22 +1,22 @@
 ## **Portafolio-Javascript**
 Este repo recopila pequeños fragmentos de JavaScript.  
 
-1. __Area de un triangulo.__
-2. __Reloj.__
-3. __Repite la palabra.__
-4. __Eliminar vocales.__
-5. __Calculadora.__
-6. __Piedra, Papel o Tijera.__
-7. __Volumen de un cilindro.__
-8. __Numero secreto.__
-9. __Traductor pig latin.__
-10. __Generador de contraseñas__
-11. __Proximo cumpleaños__
-13. __ __
-14. __ __
-15. __ __
-16. __ __
-17. __ __
-18. __ __
-19. __ __
-20. __ __
+1. Area de un triangulo.
+2. Reloj.
+3. Repite la palabra.
+4. Eliminar vocales.
+5. Calculadora.
+6. Piedra, Papel o Tijera.
+7. Volumen de un cilindro.
+8. Numero secreto.
+9. Traductor pig latin.
+10. Generador de contraseñas
+11. Proximo cumpleaños
+13.  
+14.  
+15.  
+16.  
+17.  
+18.  
+19.  
+20.  
