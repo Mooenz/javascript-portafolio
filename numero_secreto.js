@@ -8,7 +8,7 @@ let  estadoRespuesta = true;
 
 do {
   if(respuesta == NUMERO_A_ENCONTRAR) {
-    prompt(`Feliciades, el numero corresto es: ${NUMERO_A_ENCONTRAR}`);
+    console.log(`Feliciades, el numero corresto es: ${NUMERO_A_ENCONTRAR}`);
     estadoRespuesta = false;
   } else if (NUMERO_A_ENCONTRAR > respuesta) {
     respuesta = prompt('El numero es mayor');
