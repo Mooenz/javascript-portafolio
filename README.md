@@ -11,13 +11,13 @@ Este repo recopila pequeños fragmentos de JavaScript.
 8. Volumen de un cilindro.
 9. Numero secreto.
 10. Traductor pig latin.
-11. Generador de contraseñas
-12. Proximo cumpleaños
-13. Calculadora de propinas
-14. Numeros primos
-15.  
-16.  
-17.  
-18.  
-19.  
-20.  
+11. Generador de contraseñas.
+12. Proximo cumpleaños.
+13. Calculadora de propinas.
+14. Numeros primos.
+15. Calculadora de volumenes (cilindro, cubo, esfera).
+16. Calculadora V2.
+17. Ordenar de mayor a menor y viceversa.
+18. Memory(parte 1).
+19. Memory(parte 2).
+20. Memory(parte 3).
