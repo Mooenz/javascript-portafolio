@@ -21,9 +21,8 @@ Este repo recopila pequeños fragmentos de JavaScript.
 18. Memory(parte 1).
 19. Memory(parte 2).
 20. Memory(parte 3).
-20. Memory(parte 4).
-21. 
-22. 
+21. Memory(parte 4). 
+22. Interes compuesto.
 23. 
 24. 
 25. 
