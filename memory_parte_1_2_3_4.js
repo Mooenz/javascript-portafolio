@@ -1,6 +1,7 @@
 /**Memory_1: Crea un código que te muestre 4 caracteres entre los siguientes de forma aleatoria: "#$%()/& */
 /**Memory_2: Lleva un registro del Orden en el que aparecieron los caracteres. */
 /**Memory_3: Dale al usuario un menú para que elija en el orden correcto los caracteres.*/
+/**Memory_4: Crea el código para evaluar si el orden del usuario fue el mismo mostrado por el programa y decirle si ganó o en caso contrario si perdió */
 
 class Memory {
   constructor() {
@@ -41,7 +42,9 @@ class Memory {
     solucion = prompt(solucion);
    
     solucion = solucion.split("").map((numero) => parseInt(numero));
-    
+  }
+
+  mostrarSolucion() {
     if( solucion[0] == this.posicionCaracteres[0] && solucion[1] == this.posicionCaracteres[1] && solucion[2] == this.posicionCaracteres[2] && solucion[3] == this.posicionCaracteres[3] && solucion[4] == this.posicionCaracteres[4]) {
       alert('La solicion es correscta');
     } else {
@@ -54,4 +57,5 @@ const memory = new Memory;
 
 memory.generar4Caracteres();
 memory.mostrarMenuCaracteres();
-memory.mostrarMenuAdivinar()
+memory.mostrarMenuAdivinar();
+memory.mostrarSolucion();

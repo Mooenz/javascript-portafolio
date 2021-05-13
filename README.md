@@ -21,3 +21,13 @@ Este repo recopila pequeños fragmentos de JavaScript.
 18. Memory(parte 1).
 19. Memory(parte 2).
 20. Memory(parte 3).
+21. Memory(parte 4). 
+22. Interes compuesto.
+23. ¿Qué pasaría sí?.
+24. ¿Puedo ahorrar otros periodos de tiempo?.
+25. ¿Puedo ahorrar en otros bancos?.
+26. 
+27. 
+28. 
+29. 
+30. 
