@@ -1,35 +1,34 @@
 const fs = require('fs');
+const util = require('util');
 
-const ordenamientoPorInsercion = (...datos) => {
-  let auxiliar;
-  const length = datos.length;
+const ordenamientoPorInsercion = (datos) => {
+  console.time();
+  let i, j;
+  let auxiliar, actual, movimientos = 0;
   
-  for (let i = 0; i < length - 1; i++) {
-    let actual = datos[i];
-    for (let j = i; j < length - 1; j++) {
-      console.log(datos);
-      if(actual > datos[j + 1]) {
-        auxiliar = datos[j + 1];
-        datos[j + 1] = actual;
+  for (i = 1; i < datos.length; i += 1) {
+    actual = datos[i];
+    for (j = i; j > 0; j -= 1) {
+      if (actual < datos[j-1]) {
+        auxiliar = datos[j-1];
+        datos[j-1] = datos[j];
         datos[j] = auxiliar;
-      } else {
-
-      }  
-    }
+        movimientos += 1;
+      }
+    } 
   }
-  return console.log(datos);
+  console.timeEnd();
+  return `En ${movimientos} movimientos para ordenamiento por insercion`;
 }
 
-ordenamientoPorInsercion(5,2,4,1,3) 
-
-// fs.readFile('registros_300.csv', 'utf-8',(err, data) => {
-//   if(err) {
-//     console.log('error: ', err);
-//   } else {
-//     const ordenarArrayNombres = () => {
-//       let arrayNombres = data.split('\r\n');
-//       ordenamientoPorInsercion(arrayNombres);
-//     }
-//     ordenarArrayNombres();
-//   }
-// })
+fs.readFile('registros_300.csv', 'utf-8',(err, data) => {
+  if(err) {
+    console.log('error: ', err);
+  } else {
+    const ordenarArrayNombres = () => {
+      let arrayNombres = data.split('\r\n');
+      console.log(ordenamientoPorInsercion(arrayNombres));
+    }
+    ordenarArrayNombres();
+  }
+})
