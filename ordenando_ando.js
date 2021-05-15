@@ -1,5 +1,6 @@
 const fs = require('fs');
-const util = require('util');
+
+const mensaje = (msj, metodo) => `En ${msj} movimientos realizo el metodo ${metodo}`
 
 const ordenamientoPorInsercion = (datos) => {
   console.time();
@@ -18,7 +19,7 @@ const ordenamientoPorInsercion = (datos) => {
     } 
   }
   console.timeEnd();
-  return `En ${movimientos} movimientos para ordenamiento por insercion`;
+  return mensaje(movimientos, 'ordenamiento por insercion');
 }
 
 fs.readFile('registros_300.csv', 'utf-8',(err, data) => {
