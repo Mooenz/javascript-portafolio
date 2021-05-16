@@ -26,7 +26,7 @@ Este repo recopila pequeños fragmentos de JavaScript.
 23. ¿Qué pasaría sí?.
 24. ¿Puedo ahorrar otros periodos de tiempo?.
 25. ¿Puedo ahorrar en otros bancos?.
-26. 
+26. Metodos de ordenamieto.
 27. 
 28. 
 29. 
