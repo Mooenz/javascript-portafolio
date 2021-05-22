@@ -27,7 +27,7 @@ Este repo recopila pequeños fragmentos de JavaScript.
 24. ¿Puedo ahorrar otros periodos de tiempo?.
 25. ¿Puedo ahorrar en otros bancos?.
 26. Metodos de ordenamieto.
-27. 
-28. 
-29. 
+27. Codigo Morse.
+28. Telefono.
+29. risk.
 30. 
