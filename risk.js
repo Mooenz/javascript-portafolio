@@ -40,7 +40,7 @@ const risk = () => {
         mensaje.push('Es un empate y nadie gana');
       }
     }
-    console.log(mensaje.join(' , '));
+    console.log(mensaje.join(', '));
     mensaje = []
     dados.atacante = generarNumerosRandom(3);
     dados.defensor = generarNumerosRandom(3);
