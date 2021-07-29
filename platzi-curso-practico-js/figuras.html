@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras Geometricas - Cursoso Practico de Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./figuras.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <h1 class="header__title">Figuras Geometricas</h1>
+      <p class="header__subtitle">Pirmer taller del curso practico de Javascript</p>
+    </header>
+
+    <section class="articles">
+      
+      <article class="articles__article">
+        <h2 class="articles__article__title">Cuadrado</h2>
+        <form class="articles__article__form">
+          <label class="label" for="input-cuadrado">¿Cuánto mide el lado del cuadrado?</label>
+          <input  class="input" id="input-cuadrado" type="number" />
+          <h3 class="articles__article__form__title-buttons">¿Que quieres calcular?</h3>
+          <div class="articles__article__form__buttons">
+            <button class="button" type="button" onclick="calcularPerimetroCuadrado()">Perímetro</button>
+            <button class="button" type="button" onclick="calcularAreaCuadrado()">Área</button>
+          </div>
+        </form>
+        <label class="articles__article__answer" id="answer-cuadrado" for="input-cuadrado"></label>
+      </article>
+
+      <article class="articles__article">
+        <h2 class="articles__article__title">Triangulo</h2>
+        <form class="articles__article__form">
+          <label class="label" for="input-lado1">¿Cuánto mide el lado uno del triangulo?</label>
+          <input  class="input" id="input-lado1" type="number" />
+          <label class="label" for="input-lado2">¿Cuánto mide el lado dos del triangulo?</label>
+          <input  class="input" id="input-lado2" type="number" />
+          <label class="label" for="input-base">¿Cuánto la base del triangulo?</label>
+          <input  class="input" id="input-base" type="number" />
+          <label class="label" for="input-altura">¿Cuánto mide la altura del triangulo?</label>
+          <input  class="input" id="input-altura" type="number" />
+          <h3 class="articles__article__form__title-buttons">¿Que quieres calcular?</h3>
+          <div class="articles__article__form__buttons">
+            <button class="button" type="button" onclick="calcularPerimetroTriangulo()">Perímetro</button>
+            <button class="button" type="button" onclick="calcularAreaTriangulo()">Área</button>
+          </div>
+        </form>
+        <label class="articles__article__answer" id="answer-triangulo" for="input-triangulo"></label>
+      </article>
+
+      <article class="articles__article">
+        <h2 class="articles__article__title">Círculo</h2>
+        <form class="articles__article__form">
+          <label class="label" for="input-circulo">¿Cuánto mide el radio del círculo?</label>
+          <input  class="input" id="input-circulo" type="number" />
+          <h3 class="articles__article__form__title-buttons">¿Que quieres calcular?</h3>
+          <div class="articles__article__form__buttons">
+            <button class="button" type="button" onclick="calcularPerimetroCirculo()">Perímetro</button>
+            <button class="button" type="button" onclick="calcularAreaCirculo()">Área</button>
+          </div>
+        </form>
+        <label class="articles__article__answer" id="answer-circulo" for="input-cuadrado"></label>
+      </article>
+
+    </section>
+
+    <footer class="footer">
+      <a class="footer__link" href="https://github.com/Mooenz" target="_blank" rel="noopener noreferrer">Github</a>
+      <a class="footer__link" href="https://platzi.com/p/Mooenz/" target="_blank" rel="noopener noreferrer">Platzi</a>
+      <a class="footer__link twitter" href="https://twitter.com/MooenzDev" target="_blank" rel="noopener noreferrer">Twitter</a>
+    </footer>
+    <script src="./figuras.js"></script>
+  </body>
+</html>
