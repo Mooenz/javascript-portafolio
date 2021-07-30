@@ -51,8 +51,9 @@ body {
 }
 
 .articles {
-  padding: 30px 15px;
   background-color: $neutral-one;
+  margin-bottom: 50px;
+  padding: 30px 15px;
 
   &__article {
     background-color: $segundary-color;
@@ -153,9 +154,11 @@ body {
     height: 50px;
     justify-content: center;
     text-decoration: none;
+
     &:hover {
       background-color: #11121a;
       text-decoration: underline;
+      transition: .3s flex;
       flex: 2;
     }
   }

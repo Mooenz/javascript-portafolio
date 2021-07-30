@@ -39,8 +39,9 @@ body {
 }
 
 .articles {
-  padding: 30px 15px;
   background-color: #EDF2F4;
+  margin-bottom: 50px;
+  padding: 30px 15px;
 }
 
 .articles__article {
@@ -182,6 +183,8 @@ body {
 .footer__link:hover {
   background-color: #11121a;
   text-decoration: underline;
+  -webkit-transition: .3s flex;
+  transition: .3s flex;
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
