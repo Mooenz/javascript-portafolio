@@ -8,7 +8,7 @@
 3. Crear funciones.
 4. Integrar JS con Html.
 
-# Taller 2 : Porcentajes y descuentos.
+## Taller 2 : Porcentajes y descuentos.
 ### pasos:
 
 1. Definir las formulas.
@@ -16,7 +16,7 @@
 3. Crear funciones.
 4. Integrar JS con Html.
 
-# Taller 3 : Promedio, moda, mediana.
+## Taller 3 : Promedio, moda, mediana.
 ### pasos:
 
 1. Definir las formulas.
