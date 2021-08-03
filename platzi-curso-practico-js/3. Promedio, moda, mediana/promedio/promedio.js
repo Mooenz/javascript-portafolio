@@ -9,6 +9,4 @@ const calcularMediaAritmetica = (lista) => {
   return promedioLista;
 }
 
-calcularMediaAritmetica(lista1);
-
-export default calcularMediaAritmetica;
+console.log(calcularMediaAritmetica(lista1));
