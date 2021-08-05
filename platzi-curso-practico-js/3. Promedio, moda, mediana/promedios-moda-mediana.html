@@ -12,6 +12,7 @@
       sizes="32x32"
     />
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./promedios-moda-mediana.css" />
   </head>
   <body>
     <header class="header">
@@ -30,6 +31,33 @@
         </li>
       </ul>
     </header>
+
+    <section class="header-title">
+      <h1 class="header-title__title">Promedios, Moda y Mediana</h1>
+      <p class="header-title__subtitle">Este es el tercer taller del Curso Práctico de Javascript</p>
+    </section>
+
+    <section class="principal">
+      <h2 class="principal__title">Calcula según tú necesidad</h2>
+      <p class="principal__subtitle">Agregar numeros al conjuntos de datos</p>
+      <form class="principal__form">
+        <div class="principal__agrega-numeros">
+          <input class="input" id="input-numeros" type="number">
+          <button class="button" type="button">Agregar</button>
+        </div>
+        <div class="principal__array">
+          <p class="array">hola</p>
+        </div>
+        <label>¿Que deseas Calcular?</label>
+        <button class="button" type="button">Promedio</button>
+        <button class="button" type="button">Moda</button>
+        <button class="button" type="button">Mediana</button>
+        <div class="principal__respuesta">
+          <p class="respuesta" id="respuesta">respuesta</p>
+        </div>
+      </form>
+    </section>
+
     <footer class="footer">
       <a
         class="footer__link"
