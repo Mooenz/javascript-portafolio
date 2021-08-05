@@ -1,43 +1,35 @@
-$primary-color: #7bed9f;
-$segundary-color:#2ed573;
-$neutral-one: #EDF2F4;
-$neutral-two: #8D99AE;
-$neutral-three: #2B2D42;
+$cuadrado-uno: #7bed9f;
+$cuadrado-dos: #2ed573;
 
-* {
-  box-sizing: border-box;
-}
+$triangulo-uno: #eccc68;
+$triangulo-dos: #ffa502;
 
-$breakpoints: (
-  small: 540px,
-  medium: 768px,
-  large: 1024px,
-  min-large: 1100px,
-  xl: 1240px
-);
+$circulo-uno: #70a1ff;
+$circulo-dos: #1e90ff;
 
-@mixin media-query($breakpoint)  {
-  @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
-    @content;
-  }
-}
+$rectangulo-uno: #34e7e4;
+$rectangulo-dos: #00d8d6;
 
-body {
-  font-family: 'Inter', sans-serif;
-  color: $neutral-one;
-  margin: 0;
-}
+$rombo-uno: #D6A2E8;
+$rombo-dos: #82589F;
 
-.header {
+$primary-color:#fc5c65;
+$segundary-color: #eb3b5a;
+
+$neutral-one: #edf2f4;
+$neutral-two: #8d99ae;
+
+$color-letra: #2b2d42;
+
+.header-title {
   align-items: center;
-  background-color: $neutral-two;
   display: flex;
   flex-direction: column;
-  min-height: 100px;
-  max-height: 200px;
-  padding: 30px 15px;
-  width: 100%;
+  justify-content: center;
+  min-height: 150px;
+  padding: 30px 20px;
   text-align: center;
+  width: 100%;
 
   &__title {
     margin: 0;
@@ -45,20 +37,16 @@ body {
   }
 
   &__subtitle {
-    margin: 5px 0;
+    margin: 10px 0;
     font-weight: 400;
   }
 }
 
 .articles {
-  background-color: $neutral-one;
-  margin-bottom: 50px;
-  padding: 30px 15px;
+  padding: 20px;
 
   &__article {
-    background-color: $segundary-color;
     align-items: center;
-    border: 4px solid $primary-color;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -129,37 +117,35 @@ body {
     }
     &__answer {
       border-bottom: 2px solid $neutral-one;
-      height: 30px;
-      width: 90%;
+      height: 35px;
+      margin: 15px 0;
       text-align: center;
+      width: 90%;
     }
   }
 }
 
-.footer {
-  align-items: center;
-  background-color: $neutral-three;
-  display: flex;
-  height: 50px;
-  justify-content: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  &__link {
-    align-items: center;
-    color: $neutral-one;
-    display: flex;
-    flex: 1;
-    height: 50px;
-    justify-content: center;
-    text-decoration: none;
+.cuadrado {
+  background-color: $cuadrado-dos;
+  border: 4px solid $cuadrado-uno;
+}
 
-    &:hover {
-      background-color: #11121a;
-      text-decoration: underline;
-      transition: .3s flex;
-      flex: 2;
-    }
-  }
+.triangulo {
+  background-color: $triangulo-dos;
+  border: 4px solid $triangulo-uno;
+}
+
+.circulo {
+  background-color: $circulo-dos;
+  border: 4px solid $circulo-uno;
+}
+
+.rectangulo {
+  background-color: $rectangulo-dos;
+  border: 4px solid $rectangulo-uno;
+}
+
+.rombo {
+  background-color: $rombo-dos;
+  border: 4px solid $rombo-uno;
 }
