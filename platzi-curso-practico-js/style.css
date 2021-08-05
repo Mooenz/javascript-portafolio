@@ -10,6 +10,9 @@ html {
 }
 
 body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,11 +20,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: "Inter", sans-serif;
   height: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "Inter", sans-serif;
   margin: 0;
 }
 
@@ -39,10 +42,11 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 1024px;
+  min-height: 80px;
   padding: 20px;
   width: 100%;
 }
@@ -111,6 +115,14 @@ a:hover {
   max-width: 500px;
 }
 
+.principal__titulo a {
+  color: #eb3b5a;
+}
+
+.principal__titulo a:hover {
+  color: #fc5c65;
+}
+
 .principal__parrafo {
   max-width: 500px;
 }
@@ -126,6 +138,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 
 .footer__link {
