@@ -47,8 +47,8 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-bottom: 15px;
-  min-height: 300px;
   max-width: 350px;
+  min-height: 300px;
   padding: 15px;
 }
 
@@ -80,7 +80,7 @@
   background-color: rgba(255, 255, 255, 0.2);
   border: none;
   border-radius: 20px;
-  color: #edf2f4;
+  color: white;
   height: 30px;
   margin-bottom: 10px;
   outline: none;
@@ -89,7 +89,7 @@
 }
 
 .articles__article__form .input:hover {
-  border: 2px solid #edf2f4;
+  border: 2px solid white;
 }
 
 .articles__article__form__title-buttons {
@@ -108,8 +108,8 @@
   background-color: rgba(255, 255, 255, 0.3);
   border: 2px solid transparent;
   border-radius: 30px;
-  color: #edf2f4;
-  font-size: 16px;
+  color: white;
+  font-size: 1rem;
   font-weight: bold;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -120,11 +120,11 @@
 }
 
 .articles__article__form__buttons .button:hover {
-  border: 2px solid #edf2f4;
+  border: 2px solid white;
 }
 
 .articles__article__answer {
-  border-bottom: 2px solid #edf2f4;
+  border-bottom: 2px solid white;
   height: 35px;
   margin: 15px 0;
   text-align: center;

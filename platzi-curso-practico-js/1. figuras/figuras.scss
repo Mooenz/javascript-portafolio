@@ -13,13 +13,7 @@ $rectangulo-dos: #00d8d6;
 $rombo-uno: #D6A2E8;
 $rombo-dos: #82589F;
 
-$primary-color:#fc5c65;
-$segundary-color: #eb3b5a;
 
-$neutral-one: #edf2f4;
-$neutral-two: #8d99ae;
-
-$color-letra: #2b2d42;
 
 .header-title {
   align-items: center;
@@ -52,8 +46,8 @@ $color-letra: #2b2d42;
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 15px;
-    min-height: 300px;
     max-width: 350px;
+    min-height: 300px;
     padding: 15px;
 
     &__title {
@@ -76,7 +70,7 @@ $color-letra: #2b2d42;
         background-color: rgba(255, 255, 255, 0.2);
         border: none;
         border-radius: 20px;
-        color: $neutral-one;
+        color: white;
         height: 30px;
         margin-bottom: 10px;
         outline: none;
@@ -84,7 +78,7 @@ $color-letra: #2b2d42;
         width: 100%;
 
         &:hover {
-          border: 2px solid $neutral-one;
+          border: 2px solid white;
         }
       }
 
@@ -101,8 +95,8 @@ $color-letra: #2b2d42;
           background-color: rgba(255, 255, 255, 0.3);
           border: 2px solid transparent;
           border-radius: 30px;
-          color: $neutral-one;
-          font-size: 16px;
+          color: white;
+          font-size: 1rem;
           font-weight: bold;
           flex: 1;
           height: 30px;
@@ -110,13 +104,13 @@ $color-letra: #2b2d42;
           overflow: hidden;
 
           &:hover {
-            border: 2px solid $neutral-one;
+            border: 2px solid white;
           }
         }
       }
     }
     &__answer {
-      border-bottom: 2px solid $neutral-one;
+      border-bottom: 2px solid white;
       height: 35px;
       margin: 15px 0;
       text-align: center;
