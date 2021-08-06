@@ -24,7 +24,7 @@ La probabilidad de cada uno de ellos es de 1/10 = 0.1, o en porcentajes de un 10
 ## **¿Cómo traduces su fórmula a código JavaScript?**
 Para el ejemplo anterior aplicamos la sguiente formula: 
 
-![Espeanza-Matematica](esperanza-matematica.png)
+![Espeanza-Matematica](assets/esperanza-matematica.png)
 
 
 Dónde:
