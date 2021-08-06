@@ -1,8 +1,10 @@
+// Constantes 
 const array = document.getElementById("array");
 const respuesta = document.getElementById("respuesta");
 
 const arrayNumeros = [];
 
+// Agrega un nuevo numero al array
 const agregarNumeroArray = () => {
   const inputNumero = document.getElementById("input-numeros");
   const valueNumero = inputNumero.value;
@@ -13,6 +15,7 @@ const agregarNumeroArray = () => {
   return array.innerHTML = `${arrayNumeros}`;
 }
 
+// Liseners llama funciones para calcular promedio, moda y mediana
 const onclikCalcularPromedio = () => {
   const promedio = calcularMediaAritmetica(arrayNumeros);
 
