@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyectos, Cursoso Practico de Javascript - Mooenz</title>
+    <title>Promedio, Moda y Mediana - Mooenz</title>
     <link
       rel="shortcut icon"
       href="/logo-mooenz.png"
@@ -34,26 +34,48 @@
 
     <section class="header-title">
       <h1 class="header-title__title">Promedios, Moda y Mediana</h1>
-      <p class="header-title__subtitle">Este es el tercer taller del Curso Práctico de Javascript</p>
+      <p class="header-title__subtitle">
+        Este es el tercer taller del Curso Práctico de Javascript
+      </p>
     </section>
 
     <section class="principal">
       <h2 class="principal__title">Calcula según tú necesidad</h2>
-      <p class="principal__subtitle">Agregar numeros al conjuntos de datos</p>
+      <p class="principal__subtitle">Agrega numeros a calcular</p>
       <form class="principal__form">
         <div class="principal__agrega-numeros">
-          <input class="input" id="input-numeros" type="number">
-          <button class="button" type="button">Agregar</button>
+          <input class="input" id="input-numeros" type="number" />
+          <button class="button" type="button" onclick="agregarNumeroArray()">
+            Agregar
+          </button>
         </div>
         <div class="principal__array">
-          <p class="array">hola</p>
+          <p>[ <span id="array"></span> ]</p>
         </div>
         <label>¿Que deseas Calcular?</label>
-        <button class="button" type="button">Promedio</button>
-        <button class="button" type="button">Moda</button>
-        <button class="button" type="button">Mediana</button>
+        <button
+          class="button"
+          type="button"
+          onclick="onclikCalcularPromedio()"
+        >
+          Promedio
+        </button>
+        <button
+          class="button"
+          type="button"
+          onclick="onclikCalcularModa()"
+        >
+          Moda
+        </button>
+        <button
+          class="button"
+          type="button"
+          onclick="onclikCalcularMediana()"
+        >
+          Mediana
+        </button>
         <div class="principal__respuesta">
-          <p class="respuesta" id="respuesta">respuesta</p>
+          <p class="respuesta" id="respuesta"></p>
         </div>
       </form>
     </section>
@@ -81,5 +103,9 @@
         >Twitter</a
       >
     </footer>
+    <script src="index.js"></script>
+    <script src="mediana.js"></script>
+    <script src="moda.js"></script>
+    <script src="promedio.js"></script>
   </body>
 </html>

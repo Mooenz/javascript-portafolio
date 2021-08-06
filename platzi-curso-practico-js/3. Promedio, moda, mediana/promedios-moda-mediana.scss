@@ -47,7 +47,7 @@ $bg-dos : #FC427B;
 
   &__subtitle {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: 400;
   }
 
@@ -66,7 +66,7 @@ $bg-dos : #FC427B;
       margin-right: 5px;
       outline: none;
       text-align: center;
-      width: 48%;
+      width: 60%;
   
       &:hover {
         border: 2px solid $bg-dos;
@@ -92,18 +92,10 @@ $bg-dos : #FC427B;
     }
   }
 
-  &__array{
+  &__array, &__respuesta{
     align-items: center;
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    margin: 10px 0;
-    width: 100%;
-    color: $bg-dos;
-  }
-
-  &__respuesta {
-    align-items: center;
+    border: 2px solid $bg-dos;
+    border-radius: 15px;
     color: $bg-dos;
     display: flex;
     height: 50px;

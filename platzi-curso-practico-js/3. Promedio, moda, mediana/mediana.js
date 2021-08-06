@@ -1,15 +1,3 @@
-const calcularMediaAritmetica = (lista) => {
-  let sumaLista = lista.reduce((valorAcumulado = 0, nuevoElemento) => valorAcumulado + nuevoElemento);
-  
-  const promedioLista = sumaLista / lista.length;
-
-  return promedioLista;
-}
-
-const lista1 = [2, 100, 500000000, 200, 500, 400000000, 9];
-const lista2 = [2, 100, 500000000, 200, 500, 400000000];
-
-
 const esPar = (numero) => numero % 2 == 0 ? true : false;
 
 const ordenarLista = (lista) => lista.sort((a, b) => a - b );
@@ -33,6 +21,3 @@ const calcularMediana = (lista) => {
   }
   return mediana;
 }
-
-console.log(calcularMediana(lista1));
-console.log(calcularMediana(lista2));

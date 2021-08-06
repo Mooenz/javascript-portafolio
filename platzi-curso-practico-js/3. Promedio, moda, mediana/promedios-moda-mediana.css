@@ -63,7 +63,7 @@
 
 .principal__subtitle {
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 400;
 }
 
@@ -86,7 +86,7 @@
   margin-right: 5px;
   outline: none;
   text-align: center;
-  width: 48%;
+  width: 60%;
 }
 
 .principal__agrega-numeros .input:hover {
@@ -113,26 +113,12 @@
   border: 2px solid #FC427B;
 }
 
-.principal__array {
+.principal__array, .principal__respuesta {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 50px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 10px 0;
-  width: 100%;
-  color: #FC427B;
-}
-
-.principal__respuesta {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  border: 2px solid #FC427B;
+  border-radius: 15px;
   color: #FC427B;
   display: -webkit-box;
   display: -ms-flexbox;
