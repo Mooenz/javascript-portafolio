@@ -29,5 +29,6 @@ Este repo recopila pequeños fragmentos de JavaScript.
 26. Metodos de ordenamieto.
 27. Codigo Morse.
 28. Telefono.
-29. risk.
-30. 
+29. Risk.
+30. Teorema de pitagoras.
+31
