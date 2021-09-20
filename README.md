@@ -31,4 +31,4 @@ Este repo recopila pequeños fragmentos de JavaScript.
 28. Telefono.
 29. Risk.
 30. Teorema de pitagoras.
-31
+31. ecuaciones cuadraticas.
