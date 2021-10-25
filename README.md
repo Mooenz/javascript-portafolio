@@ -32,3 +32,4 @@ Este repo recopila pequeños fragmentos de JavaScript.
 29. Risk.
 30. Teorema de pitagoras.
 31. ecuaciones cuadraticas.
+32. 
